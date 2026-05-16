@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="weather-box">
+
+            <h1>🌤 Weather App</h1>
+
+            <input type="text" id="city" placeholder="Enter city name">
+
+            <button onclick="getWeather()">Search</button>
+
+            <div class="weather-info">
+
+                <h2 id="cityName">Mangalore</h2>
+
+                <img id="weatherIcon"
+                    src="https://openweathermap.org/img/wn/01d@2x.png">
+
+                <h3 id="temperature">30°C</h3>
+
+                <p id="description">Clear Sky</p>
+
+                <div class="details">
+
+                    <div class="card">
+                        <h4>Humidity</h4>
+                        <p id="humidity">70%</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Wind</h4>
+                        <p id="wind">10 km/h</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
